@@ -11,3 +11,7 @@ def test_average_empty():
 
 def test_maximum():
     assert maximum([3, 9, 1]) == 9
+
+
+def test_average_single():
+    assert average([5]) == 5
